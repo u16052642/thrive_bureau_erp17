@@ -1,0 +1,57 @@
+<thrive>
+
+    <t t-name="spreadsheet_edition.ThriveMenuChartPanelSection">
+        <div class="o-section">
+            <div class="o-section-title">Link to Thrive Bureau ERP menu</div>
+            <IrMenuSelector
+                menuId="thriveMenuId"
+                onValueChanged.bind="updateThriveLink"/>
+        </div>
+    </t>
+
+    <t t-name="spreadsheet_edition.LineBarPieConfigPanel"
+        t-inherit="spreadsheet.o-spreadsheet-LineBarPieConfigPanel"
+        t-inherit-mode="extension"
+       >
+        <xpath expr="(//div[hasclass('o-section')])[last()]" position="before">
+            <t t-call="spreadsheet_edition.ThriveMenuChartPanelSection"/>
+        </xpath>
+    </t>
+
+    <t t-name="spreadsheet_edition.BarConfigPanel"
+        t-inherit="spreadsheet.o-spreadsheet-BarConfigPanel"
+        t-inherit-mode="extension"
+       >
+        <xpath expr="(//div[hasclass('o-section')])[last()]" position="before">
+            <t t-call="spreadsheet_edition.ThriveMenuChartPanelSection"/>
+        </xpath>
+    </t>
+
+    <t t-name="spreadsheet_edition.LineConfigPanel"
+        t-inherit="spreadsheet.o-spreadsheet-LineConfigPanel"
+        t-inherit-mode="extension"
+       >
+        <xpath expr="(//div[hasclass('o-section')])[last()]" position="before">
+            <t t-call="spreadsheet_edition.ThriveMenuChartPanelSection"/>
+        </xpath>
+    </t>
+
+    <t t-name="spreadsheet_edition.ScorecardChartConfigPanel"
+        t-inherit="spreadsheet.o-spreadsheet-ScorecardChartConfigPanel"
+        t-inherit-mode="extension"
+       >
+        <xpath expr="(//div[hasclass('o-section')])[last()]" position="before">
+            <t t-call="spreadsheet_edition.ThriveMenuChartPanelSection"/>
+        </xpath>
+    </t>
+
+    <t t-name="spreadsheet_edition.GaugeChartConfigPanel"
+        t-inherit="spreadsheet.o-spreadsheet-GaugeChartConfigPanel"
+        t-inherit-mode="extension"
+       >
+        <xpath expr="(//div[hasclass('o-section')])[last()]" position="before">
+            <t t-call="spreadsheet_edition.ThriveMenuChartPanelSection"/>
+        </xpath>
+    </t>
+
+</thrive>

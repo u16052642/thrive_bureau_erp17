@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<thrive>
+    <record id="base.main_company" model="res.company">
+        <field name="social_twitter">https://twitter.com/Thrive</field>
+        <field name="social_facebook">https://www.facebook.com/Thrive</field>
+        <field name="social_linkedin">https://www.linkedin.com/company/thrive</field>
+        <field name="social_youtube">https://www.youtube.com/user/ThriveERPonline</field>
+        <field name="social_github">https://github.com/thrive</field>
+        <field name="social_instagram">https://www.instagram.com/explore/tags/thrive/</field>
+        <field name="social_tiktok">https://www.tiktok.com/@thrive</field>
+    </record>
+</thrive>

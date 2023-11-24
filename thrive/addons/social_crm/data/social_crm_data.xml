@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<thrive>
+    <data noupdate="1">
+        <record id="utm_source_social_post" model="utm.source">
+            <field name="name">Social Feed Post</field>
+        </record>
+    </data>
+</thrive>

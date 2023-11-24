@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<thrive>
+    <data>
+        <!-- Disable thrivebot on admin so that devs don't hate it -->
+        <record id="base.user_admin" model="res.users">
+            <field name="thrivebot_state">disabled</field>
+        </record>
+    </data>
+</thrive>

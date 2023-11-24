@@ -1,0 +1,5 @@
+/var/log/thrive/*.log {
+    copytruncate
+    missingok
+    notifempty
+}
