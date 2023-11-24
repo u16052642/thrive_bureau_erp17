@@ -22,7 +22,7 @@ from thrive.tools import file_open, file_open_temporary_directory, ormcache
 
 _logger = logging.getLogger(__name__)
 
-APPS_URL = "https://apps.thrivebureau.com"
+APPS_URL = "https://apps.odoo.com"
 MAX_FILE_SIZE = 100 * 1024 * 1024  # in megabytes
 
 
