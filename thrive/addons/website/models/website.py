@@ -41,8 +41,8 @@ DEFAULT_CDN_FILTERS = [
     "^/website/image/",
 ]
 
-DEFAULT_WEBSITE_ENDPOINT = 'https://website.api.thrivebureau.com'
-DEFAULT_OLG_ENDPOINT = 'https://olg.api.thrivebureau.com'
+DEFAULT_WEBSITE_ENDPOINT = 'https://website.api.odoo.com'
+DEFAULT_OLG_ENDPOINT = 'https://olg.api.odoo.com'
 
 
 class Website(models.Model):

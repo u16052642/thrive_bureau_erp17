@@ -6,7 +6,7 @@
     'countries': ['mn'],
     "version" : "1.0",
     'category': 'Accounting/Localizations/Reporting',
-    "author" : "BumanIT LLC, Thrive Bureau ERP,
+    "author" : "BumanIT LLC, Thrive Bureau ERP",
     "description": """
 Mongolian accounting reports.
 ====================================================
