@@ -3,10 +3,10 @@
 [![Help](https://img.shields.io/badge/master-help-875A7B.svg?style=flat&colorA=8F8F8F)](https://www.thrivebureau.com/forum/help-1)
 [![Nightly Builds](https://img.shields.io/badge/master-nightly-875A7B.svg?style=flat&colorA=8F8F8F)](https://nightly.thrivebureau.com/)
 
-Thrive
+Thrive Bureau ERP
 ----
 
-Thrive is a suite of web based open source business apps.
+Thrive Bureau ERP is a suite of web-based business apps.
 
 The main Thrive Apps include an <a href="https://www.thrivebureau.com/page/crm">Open Source CRM</a>,
 <a href="https://www.thrivebureau.com/app/website">Website Builder</a>,
@@ -20,10 +20,10 @@ The main Thrive Apps include an <a href="https://www.thrivebureau.com/page/crm">
 <a href="https://www.thrivebureau.com/app/manufacturing">Manufacturing</a>,
 <a href="https://www.thrivebureau.com/">...</a>
 
-Thrive Apps can be used as stand-alone applications, but they also integrate seamlessly so you get
-a full-featured <a href="https://www.thrivebureau.com">Open Source ERP</a> when you install several Apps.
+Thrive Bureau ERP Apps can be used as stand-alone applications, but they also integrate seamlessly so you get
+a full-featured <a href="https://www.thrivebureau.com">Web-Based ERP</a> when you install several Apps.
 
-Getting started with Thrive
+Getting started with Thrive Bureau ERP
 -------------------------
 
 For a standard installation please follow the <a href="https://www.thrivebureau.com/documentation/master/administration/install/install.html">Setup instructions</a>
