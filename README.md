@@ -5,19 +5,20 @@
 
 Thrive Bureau ERP
 ----
+installation script - https://github.com/u16052642/thrive_erp_install_script17
 
 Thrive Bureau ERP is a suite of web-based business apps.
 
 The main Thrive Apps include an <a href="https://www.thrivebureau.com/page/crm">Open Source CRM</a>,
-<a href="https://www.thrivebureau.com/app/website">Website Builder</a>,
-<a href="https://www.thrivebureau.com/app/ecommerce">eCommerce</a>,
-<a href="https://www.thrivebureau.com/app/inventory">Warehouse Management</a>,
-<a href="https://www.thrivebureau.com/app/project">Project Management</a>,
-<a href="https://www.thrivebureau.com/app/accounting">Billing &amp; Accounting</a>,
-<a href="https://www.thrivebureau.com/app/point-of-sale-shop">Point of Sale</a>,
-<a href="https://www.thrivebureau.com/app/employees">Human Resources</a>,
-<a href="https://www.thrivebureau.com/app/social-marketing">Marketing</a>,
-<a href="https://www.thrivebureau.com/app/manufacturing">Manufacturing</a>,
+<a href="https://www.thrivebureau.com/all-app/website">Website Builder</a>,
+<a href="https://www.thrivebureau.com/all-app/ecommerce">eCommerce</a>,
+<a href="https://www.thrivebureau.com/all-app/inventory">Warehouse Management</a>,
+<a href="https://www.thrivebureau.com/all-app/project">Project Management</a>,
+<a href="https://www.thrivebureau.com/all-app/accounting">Billing &amp; Accounting</a>,
+<a href="https://www.thrivebureau.com/all-app/point-of-sale-shop">Point of Sale</a>,
+<a href="https://www.thrivebureau.com/all-app/employees">Human Resources</a>,
+<a href="https://www.thrivebureau.com/all-app/social-marketing">Marketing</a>,
+<a href="https://www.thrivebureau.com/all-app/manufacturing">Manufacturing</a>,
 <a href="https://www.thrivebureau.com/">...</a>
 
 Thrive Bureau ERP Apps can be used as stand-alone applications, but they also integrate seamlessly so you get
