@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 
 from thrive import Command
 from thrive.addons.mail.tests.common import mail_new_test_user

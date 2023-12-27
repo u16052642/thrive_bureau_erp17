@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Time Off',
-    'version': '1.5',
+    'version': '1.6',
     'category': 'Human Resources/Time Off',
     'sequence': 85,
     'summary': 'Allocate PTOs and follow leaves requests',
-    'website': 'https://www.thrivebureau.com/app/time-off',
+    'website': 'https://www.thrive.com/app/time-off',
     'description': """
 Manage time off requests and allocations
 =====================================

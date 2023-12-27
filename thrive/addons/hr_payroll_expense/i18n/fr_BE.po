@@ -1,10 +1,10 @@
-# Translation of Thrive Bureau ERP server.
+# Translation of Thrive Server.
 # This file contains the translation of the following modules:
 # 	* hr_payroll_expense
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Thrive Bureau ERP server saas~14.5+e\n"
+"Project-Id-Version: Thrive Server saas~14.5+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-04 09:41+0000\n"
 "PO-Revision-Date: 2021-09-14 10:59+0000\n"

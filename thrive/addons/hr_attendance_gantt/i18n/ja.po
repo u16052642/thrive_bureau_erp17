@@ -1,4 +1,4 @@
-# Translation of Thrive Bureau ERP server.
+# Translation of Thrive Server.
 # This file contains the translation of the following modules:
 # 	* hr_attendance_gantt
 # 
@@ -8,7 +8,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Thrive Bureau ERP server 17.0+e\n"
+"Project-Id-Version: Thrive Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-26 22:21+0000\n"
 "PO-Revision-Date: 2023-10-26 23:10+0000\n"
@@ -23,7 +23,7 @@ msgstr ""
 #. module: hr_attendance_gantt
 #: model:ir.model,name:hr_attendance_gantt.model_hr_attendance
 msgid "Attendance"
-msgstr "出席"
+msgstr "勤怠"
 
 #. module: hr_attendance_gantt
 #: model:ir.model.fields,field_description:hr_attendance_gantt.field_hr_attendance__color

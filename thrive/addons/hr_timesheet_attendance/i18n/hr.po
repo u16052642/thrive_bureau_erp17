@@ -1,4 +1,4 @@
-# Translation of Thrive Bureau ERP server.
+# Translation of Thrive Server.
 # This file contains the translation of the following modules:
 # 	* hr_timesheet_attendance
 #
@@ -12,7 +12,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Thrive Bureau ERP server 15.5alpha1\n"
+"Project-Id-Version: Thrive Server 15.5alpha1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-16 13:49+0000\n"
 "PO-Revision-Date: 2022-09-22 05:52+0000\n"

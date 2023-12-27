@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Fleet History',
     'version': '1.0',

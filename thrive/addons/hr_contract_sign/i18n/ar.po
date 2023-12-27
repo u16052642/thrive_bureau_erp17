@@ -1,18 +1,18 @@
-# Translation of Thrive Bureau ERP server.
+# Translation of Thrive Server.
 # This file contains the translation of the following modules:
 # 	* hr_contract_sign
 # 
 # Translators:
 # Wil Thrive, 2023
-# Malaz Abuidris <msea@thrivebureau.com>, 2023
+# Malaz Abuidris <msea@thrive.com>, 2023
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Thrive Bureau ERP server 17.0+e\n"
+"Project-Id-Version: Thrive Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-26 22:21+0000\n"
 "PO-Revision-Date: 2023-10-26 23:10+0000\n"
-"Last-Translator: Malaz Abuidris <msea@thrivebureau.com>, 2023\n"
+"Last-Translator: Malaz Abuidris <msea@thrive.com>, 2023\n"
 "Language-Team: Arabic (https://app.transifex.com/thrive/teams/41243/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -149,6 +149,10 @@ msgid ""
 "                - Private takes the email defined in Private Information\n"
 "                - If the selected email is not defined, the available one will be used."
 msgstr ""
+"البريد الإلكتروني المستخدم لإرسال طلب التوقيع.\n"
+"                - يأخذ العمل عنوان البريد الإلكتروني المحدد في \"البريد الإلكتروني للعمل\"\n"
+"                - خاص تأخذ عنوان البريد الإلكتروني المحدد في المعلومات الخاصة\n"
+"                - إذا كان البريد الإلكتروني المختار غير محدد، سيتم استخدام المتاح منها. "
 
 #. module: hr_contract_sign
 #: model:ir.model,name:hr_contract_sign.model_hr_employee
@@ -214,7 +218,7 @@ msgstr "آخر تحديث في"
 #. module: hr_contract_sign
 #: model:ir.model.fields,field_description:hr_contract_sign.field_hr_contract_sign_document_wizard__mail_displayed
 msgid "Mail Displayed"
-msgstr ""
+msgstr "البريد الإلكتروني المعروض "
 
 #. module: hr_contract_sign
 #: model_terms:ir.ui.view,arch_db:hr_contract_sign.view_hr_contract_sign
@@ -324,7 +328,7 @@ msgstr "طلب التوقيع"
 #. module: hr_contract_sign
 #: model:ir.actions.server,name:hr_contract_sign.action_signature_request_wizard
 msgid "Signature request"
-msgstr ""
+msgstr "طلب توقيع "
 
 #. module: hr_contract_sign
 #: model:ir.model.fields,field_description:hr_contract_sign.field_hr_contract_sign_document_wizard__subject
@@ -353,7 +357,7 @@ msgstr "المستخدم"
 #. module: hr_contract_sign
 #: model:ir.model.fields.selection,name:hr_contract_sign.selection__hr_contract_sign_document_wizard__mail_to__work
 msgid "Work"
-msgstr ""
+msgstr "العمل "
 
 #. module: hr_contract_sign
 #: model_terms:ir.ui.view,arch_db:hr_contract_sign.view_hr_contract_sign

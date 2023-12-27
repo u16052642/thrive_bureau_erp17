@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 
 import logging
 
-from thrive import api, fields, models, tools, _
+from thrive import api, Command, fields, models, tools
 from thrive.exceptions import UserError
 from thrive.tools import html_sanitize, is_html_empty
 
@@ -36,7 +36,7 @@ class RequestAppraisal(models.TransientModel):
 
             result.update({
                 'template_id': template.id,
-                'recipient_ids': recipients.ids,
+                'recipient_ids': [Command.set(recipients.ids)],
                 'employee_id': employee.id,
                 'appraisal_id': appraisal.id,
             })

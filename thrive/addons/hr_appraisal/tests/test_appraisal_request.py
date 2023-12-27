@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 
 from datetime import date
 
@@ -22,7 +22,7 @@ class TestHrAppraisalRequest(TransactionCase):
         cls.employee = cls.env['hr.employee'].create({
             'name': "Michaël Hawkins",
             'parent_id': cls.manager.id,
-            'work_email': 'michael@thrivebureau.com',
+            'work_email': 'michael@thrive.com',
             'user_id': cls.employee_user.id,
         })
         cls.employee.work_email = 'chouxblanc@donc.com'

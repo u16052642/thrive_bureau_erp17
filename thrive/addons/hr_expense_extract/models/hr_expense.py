@@ -1,4 +1,4 @@
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 
 from markupsafe import Markup
 
@@ -30,8 +30,8 @@ class HrExpense(models.Model):
     @api.model
     def _contact_iap_extract(self, pathinfo, params):
         params['version'] = OCR_VERSION
-        params['account_token'] = self.env['iap.account'].get('invoice_ocr').account_token
-        endpoint = self.env['ir.config_parameter'].sudo().get_param('iap_extract_endpoint', 'https://extract.api.thrivebureau.com')
+        params['account_token'] = self._get_iap_account().account_token
+        endpoint = self.env['ir.config_parameter'].sudo().get_param('iap_extract_endpoint', 'https://extract.api.thrive.com')
         return iap_tools.iap_jsonrpc(endpoint + '/api/extract/expense/2/' + pathinfo, params=params)
 
     def _autosend_for_digitization(self):

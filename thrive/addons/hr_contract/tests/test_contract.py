@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime, date
 from dateutil.relativedelta import relativedelta
@@ -133,6 +133,11 @@ class TestHrContracts(TestContractCommon):
 
         draft_contract.state = 'draft'
         self.assertEqual(self.employee.contract_id, contract)
+
+    def test_copy_employee_contract_create(self):
+        contract = self.create_contract('open', 'normal', date(2018, 1, 1), date(2018, 1, 2))
+        duplicate_employee = self.employee.copy()
+        self.assertNotEqual(duplicate_employee.contract_id, contract)
 
     def test_check_multi_company_contract_expiration(self):
         """

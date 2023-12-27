@@ -1,4 +1,4 @@
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 from thrive import Command
 from thrive.addons.hr_expense.tests.common import TestExpenseCommon
 from thrive.exceptions import AccessError, UserError

@@ -1,16 +1,16 @@
-# Translation of Thrive Bureau ERP server.
+# Translation of Thrive Server.
 # This file contains the translation of the following modules:
 # * hr
 #
 # Translators:
-# Martin Trigaux <mat@thrivebureau.com>, 2017
+# Martin Trigaux <mat@thrive.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Thrive Bureau ERP server 11.0\n"
+"Project-Id-Version: Thrive Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-16 13:48+0000\n"
 "PO-Revision-Date: 2017-11-16 08:08+0000\n"
-"Last-Translator: Martin Trigaux <mat@thrivebureau.com>, 2017\n"
+"Last-Translator: Martin Trigaux <mat@thrive.com>, 2017\n"
 "Language-Team: Spanish (Peru) (https://www.transifex.com/thrive/teams/41243/es_PE/)\n"
 "Language: es_PE\n"
 "MIME-Version: 1.0\n"

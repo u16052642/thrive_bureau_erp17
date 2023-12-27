@@ -1,4 +1,4 @@
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 
 from thrive import models
 from thrive.addons.account.models.account_journal_dashboard import group_by_journal

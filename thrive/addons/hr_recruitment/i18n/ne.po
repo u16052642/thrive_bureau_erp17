@@ -1,10 +1,10 @@
-# Translation of Thrive Bureau ERP server.
+# Translation of Thrive Server.
 # This file contains the translation of the following modules:
 # * hr_recruitment
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Thrive Bureau ERP server 11.0\n"
+"Project-Id-Version: Thrive Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-16 13:48+0000\n"
 "PO-Revision-Date: 2017-11-16 08:08+0000\n"
@@ -2467,7 +2467,7 @@ msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__alias_name
-msgid "The name of the email alias, e.g. 'jobs' if you want to catch emails for <jobs@example.thrivebureau.com>"
+msgid "The name of the email alias, e.g. 'jobs' if you want to catch emails for <jobs@example.thrive.com>"
 msgstr ""
 
 #. module: hr_recruitment

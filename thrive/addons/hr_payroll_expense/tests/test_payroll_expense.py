@@ -1,4 +1,4 @@
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 from thrive.addons.hr_payroll.tests.common import TestPayslipBase
 from thrive.tests import tagged
 

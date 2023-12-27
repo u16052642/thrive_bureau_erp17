@@ -1,4 +1,4 @@
-# Translation of Thrive Bureau ERP server.
+# Translation of Thrive Server.
 # This file contains the translation of the following modules:
 # 	* hr_payroll
 # 
@@ -8,7 +8,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Thrive Bureau ERP server 17.0+e\n"
+"Project-Id-Version: Thrive Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-26 22:20+0000\n"
 "PO-Revision-Date: 2023-10-26 23:10+0000\n"
@@ -4814,8 +4814,8 @@ msgstr "np. regularne wynagrodzenie"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payroll_note_demo_content
-msgid "https://www.thrivebureau.com/fr_FR/slides/slide/manage-payroll-1002"
-msgstr "https://www.thrivebureau.com/fr_FR/slides/slide/manage-payroll-1002"
+msgid "https://www.thrive.com/fr_FR/slides/slide/manage-payroll-1002"
+msgstr "https://www.thrive.com/fr_FR/slides/slide/manage-payroll-1002"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslip

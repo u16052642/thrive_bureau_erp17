@@ -1,4 +1,4 @@
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 
 from thrive.addons.hr.tests.common import TestHrCommon
 from thrive.tests.common import tagged

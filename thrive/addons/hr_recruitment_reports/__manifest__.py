@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Recruitment Reporting',
@@ -8,7 +8,7 @@
     'description': """
 Add a dynamic report about recruitment.
     """,
-    'website': 'https://www.thrivebureau.com/app/recruitment',
+    'website': 'https://www.thrive.com/app/recruitment',
     'depends': ['hr_recruitment'],
     'data': [
         'security/ir.model.access.csv',

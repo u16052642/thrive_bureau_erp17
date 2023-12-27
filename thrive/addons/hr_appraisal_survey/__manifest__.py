@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Appraisal - Survey',
@@ -7,7 +7,7 @@
     'category': 'Human Resources/Appraisals',
     'sequence': 31,
     'summary': '360 Feedback',
-    'website': 'https://www.thrivebureau.com/app/appraisals',
+    'website': 'https://www.thrive.com/app/appraisals',
     'depends': ['hr_appraisal', 'survey'],
     'description': """
 This module adds an integration with Survey to ask feedbacks to any employee, based on a survey to fill.

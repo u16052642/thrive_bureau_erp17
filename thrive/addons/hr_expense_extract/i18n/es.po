@@ -1,17 +1,18 @@
-# Translation of Thrive Bureau ERP server.
+# Translation of Thrive Server.
 # This file contains the translation of the following modules:
 # 	* hr_expense_extract
 # 
 # Translators:
 # Wil Thrive, 2023
+# Larissa Manderfeld, 2023
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Thrive Bureau ERP server 17.0+e\n"
+"Project-Id-Version: Thrive Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-26 22:21+0000\n"
 "PO-Revision-Date: 2023-10-26 23:10+0000\n"
-"Last-Translator: Wil Thrive, 2023\n"
+"Last-Translator: Larissa Manderfeld, 2023\n"
 "Language-Team: Spanish (https://app.transifex.com/thrive/teams/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,13 +47,34 @@ msgid ""
 "    </a>\n"
 "</p>"
 msgstr ""
+"\n"
+"<p class=\"o_view_nocontent_expense_receipt\">\n"
+"    <h2 class=\"d-none d-md-block\">\n"
+"        Arrastre y suelte archivos para crear gastos.\n"
+"    </h2>\n"
+"    <p>\n"
+"        \n"
+"    </p>\n"
+"    <h2 class=\"d-none d-md-block\">\n"
+"        ¿Conoce nuestra aplicación para móviles?\n"
+"    </h2>\n"
+"</p>\n"
+"<p>Tome fotografías de sus recibos y deje que Thrive<br/> genere los gastos automáticamente por usted.</p>\n"
+"<p class=\"d-none d-md-block\">\n"
+"    <a href=\"https://apps.apple.com/be/app/thrive/id1272543640\" target=\"_blank\" class=\"o_expense_mobile_app\">\n"
+"        <img alt=\"Apple App Store\" class=\"img img-fluid h-100 o_expense_apple_store\" src=\"/hr_expense/static/img/app_store.png\"/>\n"
+"    </a>\n"
+"    <a href=\"https://play.google.com/store/apps/details?id=com.thrive.mobile\" target=\"_blank\" class=\"o_expense_mobile_app\">\n"
+"        <img alt=\"Google Play Store\" class=\"img img-fluid h-100 o_expense_google_store\" src=\"/hr_expense/static/img/play_store.png\"/>\n"
+"    </a>\n"
+"</p>"
 
 #. module: hr_expense_extract
 #. thrive-javascript
 #: code:addons/hr_expense_extract/static/src/js/tours/expense_tour.js:0
 #, python-format
 msgid "<b>Congratulations</b>, you are now an expert of Expenses."
-msgstr ""
+msgstr "<b>Enhorabuena</b>, ahora eres un experto en Gastos."
 
 #. module: hr_expense_extract
 #: model_terms:ir.ui.view,arch_db:hr_expense_extract.hr_expense_extract_view_form
@@ -60,6 +82,8 @@ msgid ""
 "<i class=\"oi oi-fw o_button_icon oi-arrow-right\"/>\n"
 "                        Buy credits"
 msgstr ""
+"<i class=\"oi oi-fw o_button_icon oi-arrow-right\"/>\n"
+"                        Comprar créditos"
 
 #. module: hr_expense_extract
 #: model_terms:ir.ui.view,arch_db:hr_expense_extract.hr_expense_extract_view_form
@@ -67,6 +91,8 @@ msgid ""
 "<i class=\"oi oi-fw o_button_icon oi-arrow-right\"/>\n"
 "                        Refresh"
 msgstr ""
+"<i class=\"oi oi-fw o_button_icon oi-arrow-right\"/>\n"
+"                        Actualizar"
 
 #. module: hr_expense_extract
 #: model_terms:ir.ui.view,arch_db:hr_expense_extract.hr_expense_extract_view_form
@@ -74,6 +100,8 @@ msgid ""
 "<i class=\"oi oi-fw o_button_icon oi-arrow-right\"/>\n"
 "                        Retry"
 msgstr ""
+"<i class=\"oi oi-fw o_button_icon oi-arrow-right\"/>\n"
+"                        Volver a intentar"
 
 #. module: hr_expense_extract
 #: model:ir.model.fields,field_description:hr_expense_extract.field_account_move__message_needaction
@@ -174,18 +202,18 @@ msgstr "Moneda"
 #. module: hr_expense_extract
 #: model:ir.model.fields.selection,name:hr_expense_extract.selection__res_company__expense_extract_show_ocr_option_selection__auto_send
 msgid "Digitize automatically"
-msgstr ""
+msgstr "Digitalizar automáticamente"
 
 #. module: hr_expense_extract
 #: model:ir.actions.server,name:hr_expense_extract.hr_expense_parse_action_server
 #: model_terms:ir.ui.view,arch_db:hr_expense_extract.hr_expense_extract_view_form
 msgid "Digitize document"
-msgstr ""
+msgstr "Digitalizar documento"
 
 #. module: hr_expense_extract
 #: model:ir.model.fields.selection,name:hr_expense_extract.selection__res_company__expense_extract_show_ocr_option_selection__manual_send
 msgid "Digitize on demand only"
-msgstr ""
+msgstr "Digitalizar solo bajo demanda"
 
 #. module: hr_expense_extract
 #: model:ir.model.fields,field_description:hr_expense_extract.field_expense_sample_receipt__display_name
@@ -196,7 +224,7 @@ msgstr "Nombre mostrado"
 #. module: hr_expense_extract
 #: model:ir.model.fields.selection,name:hr_expense_extract.selection__res_company__expense_extract_show_ocr_option_selection__no_send
 msgid "Do not digitize"
-msgstr ""
+msgstr "No digitalizar"
 
 #. module: hr_expense_extract
 #: model:ir.model.fields,field_description:hr_expense_extract.field_account_move__extract_error_message
@@ -218,7 +246,7 @@ msgstr "OCR de gastos: Actualizar todos los estados"
 #. module: hr_expense_extract
 #: model:ir.actions.server,name:hr_expense_extract.ir_cron_ocr_validate_ir_actions_server
 msgid "Expense OCR: Validate Expenses"
-msgstr ""
+msgstr "OCR de gastos: validar gastos"
 
 #. module: hr_expense_extract
 #: model:ir.model,name:hr_expense_extract.model_hr_expense_sheet
@@ -233,13 +261,13 @@ msgstr "Opción de procesamiento de gastos"
 #. module: hr_expense_extract
 #: model:ir.model.fields,help:hr_expense_extract.field_hr_expense__sample
 msgid "Expenses created from sample receipt"
-msgstr ""
+msgstr "Gastos creados desde el recibo del gasto"
 
 #. module: hr_expense_extract
 #: model:ir.model.fields,field_description:hr_expense_extract.field_account_move__extract_state_processed
 #: model:ir.model.fields,field_description:hr_expense_extract.field_hr_expense__extract_state_processed
 msgid "Extract State Processed"
-msgstr ""
+msgstr "Estado del extracto procesado"
 
 #. module: hr_expense_extract
 #: model:ir.model.fields,field_description:hr_expense_extract.field_account_move__extract_state
@@ -251,7 +279,7 @@ msgstr "Extraer estado"
 #: model:ir.model.fields,field_description:hr_expense_extract.field_account_move__extract_status
 #: model:ir.model.fields,field_description:hr_expense_extract.field_hr_expense__extract_status
 msgid "Extract status"
-msgstr ""
+msgstr "Estado del extracto"
 
 #. module: hr_expense_extract
 #: model:ir.model.fields,field_description:hr_expense_extract.field_account_move__message_follower_ids
@@ -291,7 +319,7 @@ msgstr "ID"
 #: model:ir.model.fields,field_description:hr_expense_extract.field_account_move__extract_document_uuid
 #: model:ir.model.fields,field_description:hr_expense_extract.field_hr_expense__extract_document_uuid
 msgid "ID of the request to IAP-OCR"
-msgstr ""
+msgstr "ID de la solicitud a IAP-OCR"
 
 #. module: hr_expense_extract
 #: model:ir.model.fields,help:hr_expense_extract.field_account_move__message_needaction
@@ -317,7 +345,7 @@ msgstr "Es un seguidor"
 #: model:ir.model.fields,field_description:hr_expense_extract.field_account_move__is_in_extractable_state
 #: model:ir.model.fields,field_description:hr_expense_extract.field_hr_expense__is_in_extractable_state
 msgid "Is In Extractable State"
-msgstr ""
+msgstr "Está en estado extraíble"
 
 #. module: hr_expense_extract
 #: model:ir.model.fields,field_description:hr_expense_extract.field_expense_sample_register__journal_id
@@ -366,7 +394,7 @@ msgstr "Adjuntos principales"
 msgid ""
 "Manual: Pay or Get paid by any method outside of Thrive.\n"
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
-"Check: Pay bills by check and print it from Thrive Bureau ERP.\n"
+"Check: Pay bills by check and print it from Thrive.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
@@ -503,6 +531,8 @@ msgid ""
 "The data extraction is not finished yet. The extraction usually takes "
 "between 5 and 10 seconds."
 msgstr ""
+"La extracción de datos aún no ha terminado, suele tomar entre 5 y 10 "
+"segundos."
 
 #. module: hr_expense_extract
 #. thrive-python

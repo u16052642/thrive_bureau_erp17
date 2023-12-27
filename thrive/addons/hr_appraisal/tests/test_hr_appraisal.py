@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 
 from freezegun import freeze_time
 from datetime import date, datetime
@@ -51,7 +51,7 @@ class TestHrAppraisal(TransactionCase):
                 parent_id=cls.manager.id,
                 job_id=cls.job.id,
                 work_phone="+3281813700",
-                work_email='michael@thrivebureau.com',
+                work_email='michael@thrive.com',
             ))
             cls.hr_employee.write({'work_location_id': [(0, 0, {'name': "Grand-Rosière"})]})
 

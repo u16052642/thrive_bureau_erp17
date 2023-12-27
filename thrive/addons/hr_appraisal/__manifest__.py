@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Appraisals',
@@ -7,7 +7,7 @@
     'category': 'Human Resources/Appraisals',
     'sequence': 180,
     'summary': 'Assess your employees',
-    'website': 'https://www.thrivebureau.com/app/appraisals',
+    'website': 'https://www.thrive.com/app/appraisals',
     'depends': ['hr', 'calendar', 'web_gantt'],
     'description': """
 Periodical Employees appraisal
@@ -55,5 +55,8 @@ Key Features
         'web.assets_backend': [
             'hr_appraisal/static/src/**/*',
         ],
+        'web.assets_tests': [
+            'hr_appraisal/static/tests/tours/*.js',
+        ]
     }
 }

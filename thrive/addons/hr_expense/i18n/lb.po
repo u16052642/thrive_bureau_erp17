@@ -1,17 +1,17 @@
-# Translation of Thrive Bureau ERP server.
+# Translation of Thrive Server.
 # This file contains the translation of the following modules:
 # 	* hr_expense
 #
 # Translators:
-# Xavier ALT <xal@thrivebureau.com>, 2019
+# Xavier ALT <xal@thrive.com>, 2019
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Thrive Bureau ERP server saas~12.5\n"
+"Project-Id-Version: Thrive Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-16 13:48+0000\n"
 "PO-Revision-Date: 2019-08-26 09:10+0000\n"
-"Last-Translator: Xavier ALT <xal@thrivebureau.com>, 2019\n"
+"Last-Translator: Xavier ALT <xal@thrive.com>, 2019\n"
 "Language-Team: Luxembourgish (https://www.transifex.com/thrive/teams/41243/lb/)\n"
 "Language: lb\n"
 "MIME-Version: 1.0\n"

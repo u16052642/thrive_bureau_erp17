@@ -1,18 +1,18 @@
-# Translation of Thrive Bureau ERP server.
+# Translation of Thrive Server.
 # This file contains the translation of the following modules:
 # 	* hr_appraisal
 #
 # Translators:
 # Martin Trigaux, 2022
-# Braulio D. López Vázquez <bdl@thrivebureau.com>, 2023
+# Braulio D. López Vázquez <bdl@thrive.com>, 2023
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Thrive Bureau ERP server 16.0+e\n"
+"Project-Id-Version: Thrive Server 16.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-16 16:01+0000\n"
 "PO-Revision-Date: 2022-09-22 05:46+0000\n"
-"Last-Translator: Braulio D. López Vázquez <bdl@thrivebureau.com>, 2023\n"
+"Last-Translator: Braulio D. López Vázquez <bdl@thrive.com>, 2023\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/thrive/teams/41243/es_MX/)\n"
 "Language: es_MX\n"
 "MIME-Version: 1.0\n"

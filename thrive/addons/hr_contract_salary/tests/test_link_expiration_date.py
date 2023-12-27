@@ -1,5 +1,5 @@
 # # -*- coding: utf-8 -*-
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 
 import datetime
 from freezegun import freeze_time
@@ -59,7 +59,7 @@ class TestLinkExpirationDate(HttpCase):
             self.env,
             name='Nandor Relentless',
             login='Al Qolnidar',
-            email='Nandor@thrivebureau.com',
+            email='Nandor@thrive.com',
             groups='base.group_user',
         )
         employee = self.env['hr.employee'].create({'name': "Nandor", 'user_id': simple_user.id})

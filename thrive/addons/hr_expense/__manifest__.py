@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 
 
 {
@@ -25,7 +25,7 @@ The whole flow is implemented as:
 
 This module also uses analytic accounting and is compatible with the invoice on timesheet module so that you are able to automatically re-invoice your customers' expenses if your work by project.
     """,
-    'website': 'https://www.thrivebureau.com/app/expenses',
+    'website': 'https://www.thrive.com/app/expenses',
     'depends': ['account', 'web_tour', 'hr'],
     'data': [
         'security/hr_expense_security.xml',

@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 
 import logging
 import random
@@ -839,7 +839,7 @@ class HrPayslip(models.Model):
                     context = {'lang': employee_lang}
                     if rule.code in localdict['same_type_input_lines']:
                         for multi_line_rule in localdict['same_type_input_lines'][rule.code]:
-                            localdict['inputs'].dict[rule.code] = multi_line_rule
+                            localdict['inputs'][rule.code] = multi_line_rule
                             amount, qty, rate = rule._compute_rule(localdict)
                             tot_rule = amount * qty * rate / 100.0
                             localdict = rule.category_id._sum_salary_rule_category(localdict,
@@ -1142,7 +1142,7 @@ class HrPayslip(models.Model):
     @api.model
     def get_views(self, views, options=None):
         res = super().get_views(views, options)
-        if options.get('toolbar'):
+        if options and options.get('toolbar'):
             for view_type in res['views']:
                 res['views'][view_type]['toolbar'].pop('print', None)
         return res

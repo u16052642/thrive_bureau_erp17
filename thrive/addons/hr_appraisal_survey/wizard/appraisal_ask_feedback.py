@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 
 import logging
 
@@ -166,7 +166,7 @@ class AppraisalAskFeedback(models.TransientModel):
         self.ensure_one()
 
         answers = self._prepare_survey_anwers(self.employee_ids)
-        answers.sudo().write({'appraisal_id': self.appraisal_id.id})
+        answers.sudo().write({'appraisal_id': self.appraisal_id.id, 'deadline': self.deadline})
         for answer in answers:
             self._send_mail(answer)
 

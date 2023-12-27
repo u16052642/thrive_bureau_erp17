@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 
 from thrive.tests import Form
 from thrive.addons.hr.tests.common import TestHrCommon
@@ -146,18 +146,18 @@ class TestHrEmployee(TestHrCommon):
             {
                 'name': 'Test User',
                 'login': 'test_user',
-                'email': 'test_user@thrivebureau.com',
+                'email': 'test_user@thrive.com',
             },
             {
                 'name': 'Test User 2',
                 'login': 'test_user_2',
-                'email': 'test_user_2@thrivebureau.com',
+                'email': 'test_user_2@thrive.com',
                 'create_employee': True,
             },
             {
                 'name': 'Test User 3',
                 'login': 'test_user_3',
-                'email': 'test_user_3@thrivebureau.com',
+                'email': 'test_user_3@thrive.com',
                 'create_employee_id': employee.id,
             },
         ])
@@ -176,7 +176,7 @@ class TestHrEmployee(TestHrCommon):
         self.env['res.users'].signup({
             'name': 'Test User',
             'login': 'test_user',
-            'email': 'test_user@thrivebureau.com',
+            'email': 'test_user@thrive.com',
             'password': 'test_user_password',
             'partner_id': partner.id,
         })

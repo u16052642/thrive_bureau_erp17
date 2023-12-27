@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Employee Contracts',
@@ -17,7 +17,7 @@ Add all information on the employee form to manage contracts.
 
 You can assign several contracts per employee.
     """,
-    'website': 'https://www.thrivebureau.com/app/employees',
+    'website': 'https://www.thrive.com/app/employees',
     'depends': ['hr'],
     'data': [
         'security/security.xml',

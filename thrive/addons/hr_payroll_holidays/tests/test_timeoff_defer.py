@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 
 from datetime import date, datetime
 
@@ -10,7 +10,8 @@ from thrive.addons.hr_payroll_holidays.tests.common import TestPayrollHolidaysBa
 
 from dateutil.relativedelta import relativedelta
 
-@tagged('payroll_holidays_defer')
+
+@tagged('post_install', '-at_install')
 class TestTimeoffDefer(TestPayrollHolidaysBase):
 
     def test_no_defer(self):

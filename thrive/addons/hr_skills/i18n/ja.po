@@ -1,4 +1,4 @@
-# Translation of Thrive Bureau ERP server.
+# Translation of Thrive Server.
 # This file contains the translation of the following modules:
 # 	* hr_skills
 # 
@@ -8,7 +8,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Thrive Bureau ERP server 17.0\n"
+"Project-Id-Version: Thrive Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-26 21:55+0000\n"
 "PO-Revision-Date: 2023-10-26 23:09+0000\n"
@@ -913,8 +913,8 @@ msgstr "Thrive India pvt. Ltd"
 
 #. module: hr_skills
 #: model:hr.resume.line,name:hr_skills.employee_resume_line_admin_4
-msgid "Thrive Bureau ERP"
-msgstr "Thrive Bureau ERP"
+msgid "Thrive SA"
+msgstr "Thrive SA"
 
 #. module: hr_skills
 #. thrive-python

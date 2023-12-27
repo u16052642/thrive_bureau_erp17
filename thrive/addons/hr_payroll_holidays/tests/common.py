@@ -1,16 +1,19 @@
 # -*- coding: utf-8 -*-
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 
 from thrive.fields import Date
-from thrive.tests.common import TransactionCase, new_test_user
+from thrive.tests.common import new_test_user
+from thrive.addons.account.tests.common import AccountTestInvoicingCommon
 
 from dateutil.relativedelta import relativedelta
 
-class TestPayrollHolidaysBase(TransactionCase):
+
+class TestPayrollHolidaysBase(AccountTestInvoicingCommon):
 
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
+        cls.env.user.company_id.resource_calendar_id.tz = "Europe/Brussels"
         cls.env.context = {'tz': 'Europe/Brussels'}
         cls.dep_rd = cls.env['hr.department'].create({
             'name': 'Research & Development - Test',

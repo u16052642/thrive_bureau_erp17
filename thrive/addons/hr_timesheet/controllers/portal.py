@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 
 from collections import OrderedDict
 from dateutil.relativedelta import relativedelta
@@ -138,7 +138,7 @@ class TimesheetCustomerPortal(CustomerPortal):
             if field:
                 if groupby == 'date':
                     raw_timesheets_group = Timesheet_sudo._read_group(
-                        domain, ['date:day'], ['unit_amount:sum', 'id:array_agg']
+                        domain, ['date:day'], ['unit_amount:sum', 'id:recordset']
                     )
                     grouped_timesheets = [(records, unit_amount) for __, unit_amount, records in raw_timesheets_group]
 

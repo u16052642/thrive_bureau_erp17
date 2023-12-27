@@ -1,19 +1,19 @@
-# Translation of Thrive Bureau ERP server.
+# Translation of Thrive Server.
 # This file contains the translation of the following modules:
 # 	* hr_contract_sign
 #
 # Translators:
 # Marius Stedjan <marius@stedjan.com>, 2022
 # Martin Trigaux, 2022
-# Cécile Collart <cco@thrivebureau.com>, 2022
+# Cécile Collart <cco@thrive.com>, 2022
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Thrive Bureau ERP server 16.0+e\n"
+"Project-Id-Version: Thrive Server 16.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-16 16:02+0000\n"
 "PO-Revision-Date: 2022-09-22 05:46+0000\n"
-"Last-Translator: Cécile Collart <cco@thrivebureau.com>, 2022\n"
+"Last-Translator: Cécile Collart <cco@thrive.com>, 2022\n"
 "Language-Team: Norwegian Bokmål (https://app.transifex.com/thrive/teams/41243/nb/)\n"
 "Language: nb\n"
 "MIME-Version: 1.0\n"

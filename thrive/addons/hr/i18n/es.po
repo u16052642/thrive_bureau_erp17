@@ -1,18 +1,18 @@
-# Translation of Thrive Bureau ERP server.
+# Translation of Thrive Server.
 # This file contains the translation of the following modules:
 # 	* hr
 # 
 # Translators:
-# Larissa Manderfeld, 2023
 # Wil Thrive, 2023
+# Larissa Manderfeld, 2023
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Thrive Bureau ERP server 17.0\n"
+"Project-Id-Version: Thrive Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-26 21:55+0000\n"
 "PO-Revision-Date: 2023-10-26 23:09+0000\n"
-"Last-Translator: Wil Thrive, 2023\n"
+"Last-Translator: Larissa Manderfeld, 2023\n"
 "Language-Team: Spanish (https://app.transifex.com/thrive/teams/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,7 +41,7 @@ msgstr "&amp;nbsp;"
 #. module: hr
 #: model:ir.actions.report,print_report_name:hr.hr_employee_print_badge
 msgid "'Badge - %s' % (object.name).replace('/', '')"
-msgstr ""
+msgstr "'Insignia - %s' % (object.name).replace('/', '')"
 
 #. module: hr
 #: model_terms:hr.job,job_details:hr.job_ceo
@@ -79,7 +79,7 @@ msgstr "12 días al año, incluidos<br> 6 a tu elección."
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.print_employee_badge
 msgid "12345678901"
-msgstr ""
+msgstr "12345678901"
 
 #. module: hr
 #: model_terms:hr.job,job_details:hr.job_ceo
@@ -90,7 +90,7 @@ msgstr ""
 #: model_terms:hr.job,job_details:hr.job_marketing
 #: model_terms:hr.job,job_details:hr.job_trainee
 msgid "2 open days"
-msgstr ""
+msgstr "2 días disponibles"
 
 #. module: hr
 #: model_terms:hr.job,job_details:hr.job_ceo
@@ -101,7 +101,7 @@ msgstr ""
 #: model_terms:hr.job,job_details:hr.job_marketing
 #: model_terms:hr.job,job_details:hr.job_trainee
 msgid "4 Days after Interview"
-msgstr ""
+msgstr "4 días después de la entrevista"
 
 #. module: hr
 #. thrive-python
@@ -156,11 +156,13 @@ msgid ""
 "<span class=\"flex-shrink-0 ml8 me-2\">Minimum number of emails to "
 "send</span>"
 msgstr ""
+"<span class=\"flex-shrink-0 ml8 me-2\">Número mínimo de correos electrónicos"
+" a enviar</span>"
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_department_view_kanban
 msgid "<span class=\"fw-bolder\">Reporting</span>"
-msgstr ""
+msgstr "<span class=\"fw-bolder\">Informes</span>"
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_departure_wizard_view_form
@@ -217,7 +219,7 @@ msgstr "<span class=\"o_stat_text\">Empleado</span>"
 #: model_terms:hr.job,job_details:hr.job_marketing
 #: model_terms:hr.job,job_details:hr.job_trainee
 msgid "<span class=\"text-muted small\">Days to get an Offer</span>"
-msgstr ""
+msgstr "<span class=\"text-muted small\">Días para recibir una oferta</span>"
 
 #. module: hr
 #: model_terms:hr.job,job_details:hr.job_ceo
@@ -228,7 +230,7 @@ msgstr ""
 #: model_terms:hr.job,job_details:hr.job_marketing
 #: model_terms:hr.job,job_details:hr.job_trainee
 msgid "<span class=\"text-muted small\">Process</span>"
-msgstr ""
+msgstr "<span class=\"text-muted small\">Procesar</span>"
 
 #. module: hr
 #: model_terms:hr.job,job_details:hr.job_ceo
@@ -239,7 +241,7 @@ msgstr ""
 #: model_terms:hr.job,job_details:hr.job_marketing
 #: model_terms:hr.job,job_details:hr.job_trainee
 msgid "<span class=\"text-muted small\">Time to Answer</span>"
-msgstr ""
+msgstr "<span class=\"text-muted small\">Tiempo para responder</span>"
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
@@ -319,7 +321,7 @@ msgstr "Decoración de Actividad de Excepción"
 #. module: hr
 #: model:ir.model,name:hr.model_mail_activity_plan
 msgid "Activity Plan"
-msgstr ""
+msgstr "Plan de actividad"
 
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_config_plan
@@ -344,12 +346,12 @@ msgstr "Actividad por"
 #. module: hr
 #: model:ir.model,name:hr.model_mail_activity_plan_template
 msgid "Activity plan template"
-msgstr ""
+msgstr "Plantilla del plan de actividad"
 
 #. module: hr
 #: model:ir.model,name:hr.model_mail_activity_schedule
 msgid "Activity schedule plan Wizard"
-msgstr ""
+msgstr "Asistente para planificar actividades"
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.act_employee_from_department
@@ -988,7 +990,7 @@ msgstr "Nombre del departamento"
 #: code:addons/hr/static/src/components/department_chart/department_chart.xml:0
 #, python-format
 msgid "Department Organization"
-msgstr ""
+msgstr "Organización del departamento"
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.hr_department_kanban_action
@@ -1208,7 +1210,7 @@ msgstr "Nombre del empleado"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_company__employee_properties_definition
 msgid "Employee Properties"
-msgstr ""
+msgstr "Propiedades del empleado"
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.open_view_categ_form
@@ -1403,6 +1405,8 @@ msgid ""
 "For %(channels)s, channel_type should be 'channel' to have the department "
 "auto-subscription."
 msgstr ""
+"Para %(channels)s, channel_type debe ser \"canal\" para tener la suscripción"
+" automática por departamento."
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__employee_type__freelance
@@ -1842,7 +1846,7 @@ msgstr "Número de ubicación"
 #. module: hr
 #: model:hr.department,name:hr.dep_rd_ltp
 msgid "Long Term Projects"
-msgstr ""
+msgstr "Proyectos a largo plazo"
 
 #. module: hr
 #: model_terms:hr.job,description:hr.job_hrm
@@ -2027,7 +2031,7 @@ msgstr "Negociar y contratar"
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_view_graph
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_view_pivot
 msgid "New Employees Over Time"
-msgstr ""
+msgstr "Horas extraordinarias de nuevos empleados"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__newly_hired
@@ -2072,12 +2076,12 @@ msgstr "Se valorará"
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.open_view_categ_form
 msgid "No Tags found ! Let's create one"
-msgstr ""
+msgstr "No se encontraron etiquetas. ¡Creemos una!"
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_work_location_action
 msgid "No Work Locations found ! Let's create one"
-msgstr ""
+msgstr "No se encontraron lugares de trabajo. ¡Creemos uno!"
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2203,7 +2207,7 @@ msgstr "Oficina"
 #. module: hr
 #: model:res.groups,name:hr.group_hr_user
 msgid "Officer: Manage all employees"
-msgstr ""
+msgstr "Encargado: gestionar todos los empleados"
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.mail_activity_plan_action
@@ -2216,7 +2220,7 @@ msgstr "Planes de Acogida y Salida"
 #: code:addons/hr/static/src/core/web/thread_actions.js:0
 #, python-format
 msgid "Open Profile"
-msgstr ""
+msgstr "Abrir perfil"
 
 #. module: hr
 #. thrive-python
@@ -2279,7 +2283,7 @@ msgstr "Ruta padre"
 #. module: hr
 #: model:hr.contract.type,name:hr.contract_type_part_time
 msgid "Part-Time"
-msgstr ""
+msgstr "Medio tiempo"
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__user_partner_id
@@ -2329,6 +2333,11 @@ msgid ""
 " to company policies. Strong communication, problem-solving, and work ethic "
 "required. Adaptability, initiative, and willingness to learn are valued."
 msgstr ""
+"Realizar las responsabilidades asignadas, colaborar con los miembros del "
+"equipo y cumplir con las políticas de la empresa. Es necesario tener "
+"habilidades avanzadas para comunicarse, solucionar problemas y tener una "
+"buena ética laboral. Valoramos la adaptabilidad, la iniciativa y la voluntad"
+" de aprender."
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2362,7 +2371,7 @@ msgstr "Evolución personal"
 #: code:addons/hr/models/res_users.py:0
 #, python-format
 msgid "Personal information update."
-msgstr ""
+msgstr "Actualización de la información personal"
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
@@ -2389,6 +2398,8 @@ msgid ""
 "Plan %(plan_names)s cannot use a department as it is used only for employee "
 "plans."
 msgstr ""
+"El plan %(plan_names)s no puede utilizar un departamento, ya que se utiliza "
+"solo para los planes de los empleados."
 
 #. module: hr
 #. thrive-python
@@ -2398,6 +2409,9 @@ msgid ""
 "Plan activities %(template_names)s cannot use coach, manager or employee "
 "responsible as it is used only for employee plans."
 msgstr ""
+"Las actividades del plan %(template_names)s no pueden utilizar un "
+"instructor, gerente o empleado responsable. Se utiliza solo para los planes "
+"de los empleados."
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_department_form
@@ -2438,7 +2452,7 @@ msgstr ""
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Presence Control"
-msgstr ""
+msgstr "Registro de la asistencia"
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
@@ -2484,7 +2498,7 @@ msgstr "Dirección Privada"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__private_car_plate
 msgid "Private Car Plate"
-msgstr ""
+msgstr "Placa del vehículo privado"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__private_city
@@ -2548,7 +2562,7 @@ msgstr "Código Postal Privado"
 #. module: hr
 #: model:hr.department,name:hr.dep_ps
 msgid "Professional Services"
-msgstr ""
+msgstr "Servicios profesionales"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__employee_properties
@@ -2574,7 +2588,7 @@ msgstr "Calificar las necesidades del cliente"
 #. module: hr
 #: model:hr.department,name:hr.dep_rd_be
 msgid "R&D USA"
-msgstr ""
+msgstr "I&D EE. UU."
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__rating_ids
@@ -2608,7 +2622,7 @@ msgstr "Motivo"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_departure_reason__reason_code
 msgid "Reason Code"
-msgstr ""
+msgstr "Código de motivo"
 
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_config_recruitment
@@ -2655,7 +2669,7 @@ msgstr "Usuario relacionado con el recurso para gestionar su acceso."
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__module_hr_homeworking
 msgid "Remote Work"
-msgstr ""
+msgstr "Trabajo remoto"
 
 #. module: hr
 #: model:ir.ui.menu,name:hr.hr_menu_hr_reports
@@ -2752,7 +2766,7 @@ msgstr "Escuela"
 #. module: hr
 #: model:hr.contract.type,name:hr.contract_type_seasonal
 msgid "Seasonal"
-msgstr ""
+msgstr "Por temporada"
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__coach_id
@@ -2791,14 +2805,14 @@ msgstr "Ajustes"
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__show_hr_icon_display
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__show_hr_icon_display
 msgid "Show Hr Icon Display"
-msgstr ""
+msgstr "Mostrar icono de RR. HH."
 
 #. module: hr
 #. thrive-javascript
 #: code:addons/hr/static/src/components/department_chart/department_chart.xml:0
 #, python-format
 msgid "Show employees"
-msgstr ""
+msgstr "Mostrar empleados"
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__marital__single
@@ -2824,7 +2838,7 @@ msgstr "Número de Seguridad Social"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.print_employee_badge
 msgid "Software Developer"
-msgstr ""
+msgstr "Desarrollador de software"
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2944,12 +2958,12 @@ msgstr "Conocimientos técnicos"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__create_employee_id
 msgid "Technical field, bind user to this employee on create"
-msgstr ""
+msgstr "Campo técnico, vincula al usuario con este empleado en la creación"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__create_employee
 msgid "Technical field, whether to create an employee"
-msgstr ""
+msgstr "Campo técnico, si se debe crear un empleado"
 
 #. module: hr
 #: model:hr.contract.type,name:hr.contract_type_temporary
@@ -3015,13 +3029,15 @@ msgid ""
 "The fields %r you try to read is not available on the public employee "
 "profile."
 msgstr ""
+"Los campos %r que intenta leer no están disponibles en el perfil de empleado"
+" público."
 
 #. module: hr
 #. thrive-python
 #: code:addons/hr/models/res_users.py:0
 #, python-format
 msgid "The following fields were modified by %s"
-msgstr ""
+msgstr "Los siguientes campos han sido modificados por %s"
 
 #. module: hr
 #. thrive-python
@@ -3088,7 +3104,7 @@ msgstr ""
 #: code:addons/hr/models/mail_activity_plan_template.py:0
 #, python-format
 msgid "Those responsible types are limited to Employee plans."
-msgstr ""
+msgstr "Esos tipos de responsables se limitan solo a los planes de empleados."
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__tz
@@ -3178,7 +3194,7 @@ msgstr "Mensajes sin leer"
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.open_view_categ_form
 msgid "Use tags to categorize your Employees."
-msgstr ""
+msgstr "Utilice etiquetas para clasificar a sus empleados."
 
 #. module: hr
 #: model:ir.model,name:hr.model_res_users
@@ -3410,7 +3426,7 @@ msgstr "Horas laborales"
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_resource_calendar_view
 msgid "Working Schedules"
-msgstr ""
+msgstr "Horarios de trabajo"
 
 #. module: hr
 #. thrive-python
@@ -3461,6 +3477,17 @@ msgid ""
 "contributing to the set up of a new politic,\n"
 "being involved into satisfaction surveys in order to have a better knowledge of how the support given is seen by the customers."
 msgstr ""
+"Participará en la actualización de nuestras herramientas de guía y preventa después del lanzamiento de una nueva versión de Thrive. De hecho, cada nueva versión del software trae mejoras significativas en términos de funciones, ergonomía y configuración.\n"
+"Deberá familiarizarse con las herramientas existentes (libros, soportes de clase, diapositivas de presentación de Thrive, herramientas comerciales),\n"
+"y participar en la actualización de esas herramientas para adaptarlas a la nueva versión del software y, por supuesto,\n"
+" sugerir mejoras para cubrir los nuevos dominios del software.\n"
+"Se unirá al departamento de Asistencia en la implementación. Este equipo de 3 personas acompaña a los clientes de Thrive en la configuración del software. Su función será\n"
+"participar en los webinars para mostrar las diferentes funciones del software,\n"
+"ayudar a los clientes y responder a sus preguntas.\n"
+"Ayudará al gerente de soporte a establecer nuevos servicios de soporte al\n"
+"participar en el análisis de nuevos casos,\n"
+"contribuir a la configuración de una nueva política,\n"
+"y participar en el proceso de envío de encuestas de satisfacción para tener un mejor conocimiento de cómo los clientes perciben el soporte brindado."
 
 #. module: hr
 #. thrive-python
@@ -3477,6 +3504,9 @@ msgid ""
 "\n"
 "The job is located in Grand-Rosière (1367), Belgium (between Louvain-La-Neuve and Namur)."
 msgstr ""
+"Formará parte de los servicios de consultoría que brindamos a nuestros partners y clientes: diseño, análisis, desarrollo, pruebas, gestión de proyectos, soporte/coaching. Trabajará de manera autónoma, coordinará y supervisará pequeños equipos de desarrollo distribuidos para algunos proyectos. De manera opcional, impartirá sesiones de formación de Thrive a socios y clientes (8-10 personas por sesión). Su supervisor será el Jefe de servicios profesionales y trabajará con todos los desarrolladores y consultores.\n"
+"\n"
+"El trabajo se encuentra en Grand-Rosière (1367), Bélgica (entre Louvain-La-Neuve y Namur)."
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile

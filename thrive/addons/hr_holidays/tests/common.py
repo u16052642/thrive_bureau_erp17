@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 
 from thrive.addons.mail.tests.common import mail_new_test_user
 from thrive.tests import common
@@ -11,6 +11,7 @@ class TestHrHolidaysCommon(common.TransactionCase):
     def setUpClass(cls):
         super(TestHrHolidaysCommon, cls).setUpClass()
         cls.env.user.tz = 'Europe/Brussels'
+        cls.env.user.company_id.resource_calendar_id.tz = "Europe/Brussels"
 
         cls.company = cls.env['res.company'].create({'name': 'Test company'})
         cls.env.user.company_id = cls.company

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 
 from . import test_access_rights
 from . import test_automatic_leave_dates
@@ -19,3 +19,4 @@ from . import test_global_leaves
 from . import test_uninstall
 from . import test_holidays_calendar
 from . import test_negative
+from . import test_past_accruals

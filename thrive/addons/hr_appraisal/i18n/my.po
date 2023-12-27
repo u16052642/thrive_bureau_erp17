@@ -1,4 +1,4 @@
-# Translation of Thrive Bureau ERP server.
+# Translation of Thrive Server.
 # This file contains the translation of the following modules:
 # * hr_appraisal
 #
@@ -9,7 +9,7 @@
 # Pyaephone Kyaw <pyayphonekyaw@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Thrive Bureau ERP server 10.0e\n"
+"Project-Id-Version: Thrive Server 10.0e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-16 16:01+0000\n"
 "PO-Revision-Date: 2016-09-07 09:57+0000\n"

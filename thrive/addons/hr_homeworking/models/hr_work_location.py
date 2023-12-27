@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 
 from thrive import _, api, models
 from thrive.exceptions import UserError
@@ -14,5 +14,5 @@ class WorkLocation(models.Model):
         employee_uses_location = self.env['hr.employee'].search_count(domains, limit=1)
         if employee_uses_location:
             raise UserError(_("You cannot delete locations that are being used by your employees"))
-        exceptions_using_location = self.env['hr.employee.location'].search(('work_location_id', 'in', self.ids))
+        exceptions_using_location = self.env['hr.employee.location'].search([('work_location_id', 'in', self.ids)])
         exceptions_using_location.unlink()

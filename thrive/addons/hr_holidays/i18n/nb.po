@@ -1,11 +1,11 @@
-# Translation of Thrive Bureau ERP server.
+# Translation of Thrive Server.
 # This file contains the translation of the following modules:
 # 	* hr_holidays
 #
 # Translators:
 # Jan Pedro Tumusok <jpt@eyenetworks.no>, 2022
 # Mads Søndergaard, 2022
-# Cécile Collart <cco@thrivebureau.com>, 2022
+# Cécile Collart <cco@thrive.com>, 2022
 # Lars Aam <lars.aam@vikenfiber.no>, 2022
 # Martin Trigaux, 2022
 # Jorunn D. Newth, 2023
@@ -14,7 +14,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Thrive Bureau ERP server 16.0\n"
+"Project-Id-Version: Thrive Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-16 13:48+0000\n"
 "PO-Revision-Date: 2022-09-22 05:46+0000\n"

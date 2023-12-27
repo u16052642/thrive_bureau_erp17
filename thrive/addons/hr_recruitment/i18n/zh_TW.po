@@ -1,4 +1,4 @@
-# Translation of Thrive Bureau ERP server.
+# Translation of Thrive Server.
 # This file contains the translation of the following modules:
 # 	* hr_recruitment
 # 
@@ -8,7 +8,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Thrive Bureau ERP server 17.0\n"
+"Project-Id-Version: Thrive Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-26 21:55+0000\n"
 "PO-Revision-Date: 2023-10-26 23:09+0000\n"
@@ -2943,8 +2943,8 @@ msgstr "應聘者學歷的名稱必須唯一！"
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.thrivebureau.com>"
-msgstr "信件別名的名稱，例如，如果您要收取 <jobs@example.thrivebureau.com> 的電子信件,別名就要被設為：\"jobs\""
+"<jobs@example.thrive.com>"
+msgstr "信件別名的名稱，例如，如果您要收取 <jobs@example.thrive.com> 的電子信件,別名就要被設為：\"jobs\""
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant__email_normalized

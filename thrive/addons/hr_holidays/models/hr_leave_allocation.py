@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 
 # Copyright (c) 2005-2006 Axelor SARL. (http://www.axelor.com)
 
@@ -225,7 +225,7 @@ class HolidaysAllocation(models.Model):
     def _compute_number_of_hours_display(self):
         for allocation in self:
             allocation_calendar = allocation.holiday_status_id.company_id.resource_calendar_id
-            if allocation.holiday_type == 'employee':
+            if allocation.holiday_type == 'employee' and allocation.employee_id:
                 allocation_calendar = allocation.employee_id.sudo().resource_calendar_id
 
             allocation.number_of_hours_display = allocation.number_of_days * (allocation_calendar.hours_per_day or HOURS_PER_DAY)
@@ -609,17 +609,26 @@ class HolidaysAllocation(models.Model):
 
     def _add_lastcalls(self):
         for allocation in self:
-            if allocation.allocation_type != 'accrual' or allocation.lastcall:
+            if allocation.allocation_type != 'accrual':
                 continue
             today = fields.Date.today()
-            current_level = allocation._get_current_accrual_plan_level_id(today)[0]
-            if not current_level:
-                allocation.lastcall = today
-                continue
-            allocation.lastcall = max(
-                current_level._get_previous_date(today),
-                allocation.date_from + get_timedelta(current_level.start_count, current_level.start_type)
-            )
+            (current_level, current_level_idx) = allocation._get_current_accrual_plan_level_id(today)
+            if not allocation.lastcall:
+                if not current_level:
+                    allocation.lastcall = today
+                    continue
+                allocation.lastcall = max(
+                    current_level._get_previous_date(today),
+                    allocation.date_from + get_timedelta(current_level.start_count, current_level.start_type)
+                )
+            if not allocation.nextcall and allocation.lastcall < today:
+                accrual_plan = allocation.accrual_plan_id
+                next_level = False
+                allocation.nextcall = current_level._get_next_date(allocation.lastcall)
+                if current_level_idx < (len(accrual_plan.level_ids) - 1) and accrual_plan.transition_mode == 'immediately':
+                    next_level = allocation.accrual_plan_id.level_ids[current_level_idx + 1]
+                    next_level_start = allocation.date_from + get_timedelta(next_level.start_count, next_level.start_type)
+                    allocation.nextcall = min(allocation.nextcall, next_level_start)
 
     def add_follower(self, employee_id):
         employee = self.env['hr.employee'].browse(employee_id)

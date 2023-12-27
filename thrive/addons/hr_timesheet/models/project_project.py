@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Thrive Bureau ERP. See LICENSE file for full copyright and licensing details.
+# Part of Thrive. See LICENSE file for full copyright and licensing details.
 from collections import defaultdict
 
 from thrive import models, fields, api, _, _lt
@@ -108,7 +108,7 @@ class Project(models.Model):
              WHERE Project.allocated_hours > 0
                AND Project.allow_timesheets = TRUE
                AND Task.parent_id IS NULL
-               AND Task.state NOT IN ('1_done', '1_canceled')
+               AND Task.state IN ('01_in_progress', '02_changes_requested', '03_approved', '04_waiting_normal')
           GROUP BY Project.id
             HAVING Project.allocated_hours - SUM(Task.effective_hours) < 0
         """

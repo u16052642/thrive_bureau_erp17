@@ -1,4 +1,4 @@
-# Translation of Thrive Bureau ERP server.
+# Translation of Thrive Server.
 # This file contains the translation of the following modules:
 # * hr_contract_salary
 #
@@ -8,7 +8,7 @@
 # Laxman Bhatt <laxmanbhatt1001@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Thrive Bureau ERP server 10.saas~18+e\n"
+"Project-Id-Version: Thrive Server 10.saas~18+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-16 16:02+0000\n"
 "PO-Revision-Date: 2017-10-02 11:50+0000\n"
