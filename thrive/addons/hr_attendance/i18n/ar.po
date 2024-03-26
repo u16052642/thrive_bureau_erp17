@@ -1,15 +1,15 @@
-# Translation of Odoo Server.
+# Translation of Thrive Server.
 # This file contains the translation of the following modules:
 # 	* hr_attendance
 # 
 # Translators:
-# Wil Odoo, 2023
+# Wil Thrive, 2023
 # Martin Trigaux, 2023
 # Malaz Abuidris <msea@thrive.com>, 2023
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 17.0\n"
+"Project-Id-Version: Thrive Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-26 21:55+0000\n"
 "PO-Revision-Date: 2023-10-26 23:09+0000\n"
@@ -155,7 +155,7 @@ msgstr "الكل"
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
-msgid "Allow Users to Check in/out from Odoo."
+msgid "Allow Users to Check in/out from Thrive."
 msgstr "السماح للمستخدمين بتسجيل الدخول/الخروج من أودو. "
 
 #. module: hr_attendance
