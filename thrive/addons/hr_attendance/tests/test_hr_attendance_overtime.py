@@ -1,4 +1,4 @@
-# Part of Thrive. See LICENSE file for full copyright and licensing details.
+# Part of thrive. See LICENSE file for full copyright and licensing details.
 from datetime import date, datetime
 
 from thrive.tests import new_test_user

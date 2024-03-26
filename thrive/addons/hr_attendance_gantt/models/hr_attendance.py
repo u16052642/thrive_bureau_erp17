@@ -1,4 +1,4 @@
-# Part of Thrive. See LICENSE file for full copyright and licensing details.
+# Part of thrive. See LICENSE file for full copyright and licensing details.
 
 from thrive import models, fields, api
 from thrive.addons.resource.models.utils import string_to_datetime
@@ -54,10 +54,7 @@ class HrAttendance(models.Model):
                 start, stop, emp.resource_id
             )[emp.resource_id.id]
             leave_intervals = calendar._leave_intervals_batch(
-                start, stop, emp.resource_id, domain=expression.AND([
-                    self._get_overtime_leave_domain(),
-                    [('company_id', 'in', [False, emp.company_id.id])],
-                ])
+                start, stop, emp.resource_id, domain=self._get_overtime_leave_domain()
             )
             expected_attendances -= leave_intervals[False] | leave_intervals[emp.resource_id.id]
             expected_worked_hours[emp.id] = sum([(att[2].hour_to - att[2].hour_from) for att in expected_attendances])

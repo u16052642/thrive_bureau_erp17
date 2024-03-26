@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Thrive. See LICENSE file for full copyright and licensing details.
+# Part of thrive. See LICENSE file for full copyright and licensing details.
 
 import pytz
 
@@ -264,10 +264,7 @@ class HrAttendance(models.Model):
             )[emp.resource_id.id]
             # Substract Global Leaves and Employee's Leaves
             leave_intervals = calendar._leave_intervals_batch(
-                start, stop, emp.resource_id, domain=AND([
-                    self._get_overtime_leave_domain(),
-                    [('company_id', 'in', [False, emp.company_id.id])],
-                ])
+                start, stop, emp.resource_id, domain=self._get_overtime_leave_domain()
             )
             expected_attendances -= leave_intervals[False] | leave_intervals[emp.resource_id.id]
 
